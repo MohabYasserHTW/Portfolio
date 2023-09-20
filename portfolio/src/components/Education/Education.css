@@ -1,0 +1,39 @@
+.education_list {
+    padding: 3rem;
+    list-style-type: none;
+}
+.education_list>li{
+    position: relative;
+    font-size: 1rem;
+}
+.education_list>li::after{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    margin-right: 22.5px;
+    background-color: rgba(255, 255, 255, 0);
+    top: calc(.4rem + 25px) ;
+    right: 100%;
+    content: "";
+    border-radius: 25px;
+    border-left: solid 3px black;
+}
+.education_list>li::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    z-index: 1;
+    top: .4rem;
+    background-color: white;
+    right: 100%;
+    content: "";
+    border-radius: 25px;
+    border: solid 3px black;
+}
+.education_inner_list{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 20px;
+}

@@ -1,0 +1,45 @@
+.about_hero{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.about_img{
+    display: block;
+    flex-grow: 1;
+    width: 320px;
+    
+    
+}
+.about_text{
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.about_title{
+    color: brown;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+.about_hero_info ul{
+    padding: 1rem 0;
+    list-style-position: inside;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    white-space: wrap;
+    word-break: break-all;
+    gap: 30px;
+}
+.about_hero_info {
+    flex-grow: 2;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 650px;
+    word-wrap: break-word;
+white-space: pre-wrap;
+word-break: break-word;
+justify-content: space-around;
+}

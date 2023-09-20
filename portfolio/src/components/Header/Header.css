@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    align-items: center;
+    max-height: 100px;
+    box-shadow: .001px .5px .1px rgba(255, 255, 255, 0.645);
+    position:relative;
+    padding: 0 1rem;
+} 
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+.div__nav, .div__logo {
+
+    flex-grow: 3;
+    padding: .2rem 0;
+    
+}
+.div__logo {
+    flex-grow: 2;
+    display: flex;
+    justify-content: start;
+}
+.div__logo img{
+    width: 50%;
+    max-width: 200px;
+}
+.to_right{
+    
+    display: flex;
+    justify-content: right;
+}
+.nav_mobile ul{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    align-items:center;
+    padding: 0;
+    justify-content: space-around;
+}
+.nav_mobile{
+    display: none;
+    position: absolute;
+    top:0;
+    background-color: black;
+    right: 0;
+    width: 50%;
+    z-index: 10;
+}
+
+.nav_background{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    
+}
+.on {
+    display: block;
+}
+
+.animeFromRight{
+    animation-name: fromRight;
+    animation-duration: 1s;
+}
+header a:hover{
+    color: rgba(255, 255, 255, 0.808);
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+@keyframes fromRight  {
+    from{right: -100px;}
+    to{right: 0px;}
+}

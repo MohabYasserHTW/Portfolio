@@ -1,0 +1,25 @@
+.HeroSection{
+    background-image: url("../../../public/imgs/me\ -\ Copy.jpg");
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.HeroSection div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.786);
+    display: grid;
+    place-content: center;
+    font-size: clamp(18px,1.5vw,32px);
+    padding: 20px;
+    text-shadow: 1px 1px 5px white;
+}
+
+.HeroSection div p{
+    margin-top: 20px;
+    color: rgb(18, 196, 60);
+    text-shadow: 0px 0px 5px white;
+}
