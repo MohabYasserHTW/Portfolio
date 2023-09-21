@@ -50,6 +50,7 @@ function HeroSection() {
         <h1>{person.getName()}</h1>
         <h2>
           I'm a{" "}
+          <br />
           <Typewriter
             delay={1000}
             loop={true}
