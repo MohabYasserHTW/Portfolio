@@ -1,0 +1,23 @@
+.services_list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 3rem;
+}
+.services_list>div{
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
+padding: 1rem;
+border-radius: 25px;
+text-align: center;
+gap: 20px;
+width: 300px;
+height: 300px;
+color: brown;
+}
+.services_list img{
+    width: clamp(200px,10%,300px);
+    height: 100%;
+}

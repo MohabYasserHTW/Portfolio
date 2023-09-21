@@ -1,0 +1,80 @@
+.contact_div>div{
+    box-shadow: 0px 0px 10px black;
+    padding: 1rem;
+    gap: 50px;
+    height: 700px;
+}
+.contact_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: .5rem;
+}
+.contact_text{
+    padding: 1rem 0;
+}
+svg{
+    position: relative;
+    color: rgb(81, 119, 255);
+    width: 50px;
+    height: 30px;
+    
+    border-radius: 50%;
+    
+}
+.contact_info>div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    min-width: 250px;
+}
+.contact_form form label{
+    font-size: 1.3rem;
+    color: brown;
+    
+}
+
+.contact_form form textarea{
+    height: 200px;
+}
+.contact_form form input,textarea{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    resize: none;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+}
+
+.contact_form form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_form button {
+    background-color: blue;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0 0 5px white;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+.contact_form {
+    flex-grow: 2;
+    min-width: 250px;
+}

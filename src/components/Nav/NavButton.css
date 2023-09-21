@@ -1,0 +1,20 @@
+.nav_button{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    place-content: center;
+    color: white;
+    border: none;
+}
+.nav_button svg{
+    color: white;
+}
+.show_btn{
+    display: grid;
+
+}

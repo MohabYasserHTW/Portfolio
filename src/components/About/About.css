@@ -9,7 +9,7 @@
     display: block;
     flex-grow: 1;
     width: 320px;
-    
+    max-width: 500px;
     
 }
 .about_text{

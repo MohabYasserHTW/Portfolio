@@ -14,7 +14,7 @@ export default function About() {
         
       </p>
       <div className="about_hero">
-        <img src="/imgs/30.jpg" className="about_img" alt="my img"  width={"300px"}/>
+        <img src="/imgs/meOnAtos.jpg" className="about_img" alt="my img"  width={"300px"}/>
         <div className="about_hero_info">
           <h2 className="about_title">Full stack developer</h2>
             <p>Over the past year, I've had the privilege to contribute my expertise to a range of projects, each of which has deepened my problem-solving abilities and expanded my technical prowess. From architecting robust databases to crafting intuitive user interfaces, I've been fortunate to collaborate with talented teams to bring innovative ideas to life.</p>
