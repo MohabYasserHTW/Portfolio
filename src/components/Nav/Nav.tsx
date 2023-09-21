@@ -30,10 +30,19 @@ function Nav({ width, isOpen, setIsOpen }: any) {
       <img src="imgs/meOnAtos.jpg" alt="me" />
       <h3>Mohab Rageh</h3>
       <div className="nav_icons">
+        <a target="blank" href="https://www.linkedin.com/in/mohab-rageh-090079275/" >
         <AiFillLinkedin />
+        </a>
+        <a target="blank" href="https://github.com/MohabYasserHTW">
         <AiFillGithub />
+        </a>
+        <a target="blank" href="mailto:mohabrageh3@gmail.com">
         <SiGmail />
+        </a >
+        <a target="blank" href="https://api.whatsapp.com/send?phone=01050930033">
+
         <AiOutlineWhatsApp />
+        </a>
       </div>
       <div className="nav_elements">
         <div>
@@ -72,13 +81,22 @@ function Nav({ width, isOpen, setIsOpen }: any) {
       data-aos-duration="1000"
       data-aos-delay="100"
     >
-      <img src="/imgs/meOnAtos.jpg" alt="me" />
+      <img src="imgs/meOnAtos.jpg" alt="me" />
       <h3>Mohab Rageh</h3>
       <div className="nav_icons">
+        <a target="blank" href="https://www.linkedin.com/in/mohab-rageh-090079275/">
         <AiFillLinkedin />
+        </a>
+        <a target="blank" href="https://github.com/MohabYasserHTW">
         <AiFillGithub />
+        </a>
+        <a target="blank" href="mailto:mohabrageh3@gmail.com">
         <SiGmail />
+        </a >
+        <a target="blank" href="https://api.whatsapp.com/send?phone=01050930033">
+
         <AiOutlineWhatsApp />
+        </a>
       </div>
       <div className="nav_elements">
         <div>
