@@ -13,9 +13,12 @@
     
 }
 .about_text{
+    
+    
     padding: 1rem 0;
     font-size: 1.1rem;
     line-height: 1.5;
+    scroll-margin-top: 100px;
 }
 .about_title{
     color: brown;
@@ -33,6 +36,8 @@
     gap: 30px;
 }
 .about_hero_info {
+    opacity: 0;
+    animation: fade_in 2s 2s forwards;
     flex-grow: 2;
     flex-shrink: 1;
     display: flex;

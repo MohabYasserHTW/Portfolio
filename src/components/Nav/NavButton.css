@@ -10,6 +10,7 @@
     place-content: center;
     color: white;
     border: none;
+    z-index: 100;
 }
 .nav_button svg{
     color: white;

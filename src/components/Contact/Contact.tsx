@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Section from "../Section/Section";
 import { FaLocationDot } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { AiOutlineMobile, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import "./Contact.css";
+import "aos/dist/aos.css"
+import Aos from "aos"
 export default function Contact() {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
   return (
     <Section sectionTitle={"Contact"}>
-      <p className="contact_text">
+      <p className="contact_text" id="contact" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="100">
         i would be more than happy to get to know you
       </p>
       <div className="contact_div">
-        <div className="contact_info">
+        <div className="contact_info"
+         data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100"
+         >
           <div>
             <FaLocationDot />
             <div>
@@ -48,7 +55,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="contact_form">
+        <div className="contact_form" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="100">
           <form onSubmit={(e)=> e.preventDefault()}>
             
             <div>

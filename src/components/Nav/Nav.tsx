@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Nav.css";
 import {
   AiFillLinkedin,
@@ -12,11 +12,22 @@ import { GiSkills } from "react-icons/gi";
 import { RiProfileFill } from "react-icons/ri";
 import { BsCodeSlash } from "react-icons/bs";
 import { BiSolidContact } from "react-icons/bi";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
-function Nav({ width, isOpen }: any) {
+function Nav({ width, isOpen, setIsOpen }: any) {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const navForBigDevices = (
-    <aside className={`nav ${width > 1200 ? "show" : ""}`}>
-      <img src="/imgs/meOnAtos.jpg" alt="me" />
+    <aside
+      className={`nav ${width > 1200 ? "show" : ""}`}
+      data-aos="fade-right"
+      data-aos-duration="3000"
+      data-aos-delay="100"
+    >
+      <img src="imgs/meOnAtos.jpg" alt="me" />
       <h3>Mohab Rageh</h3>
       <div className="nav_icons">
         <AiFillLinkedin />
@@ -27,35 +38,40 @@ function Nav({ width, isOpen }: any) {
       <div className="nav_elements">
         <div>
           <AiOutlineHome />
-          Home
+          <a href="#home" onClick={()=>{setIsOpen(!isOpen)}}>Home</a>
         </div>
         <div>
           <CgProfile />
-          About
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#about">About</a>
         </div>
         <div>
           <GiSkills />
-          Skills
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#skills">Skills</a>
         </div>
         <div>
           <RiProfileFill />
-          Education & Work
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#education">Education & Work</a>
         </div>
         <div>
           <BsCodeSlash />
-          Projects
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#projects">Projects</a>
         </div>
         <div>
           <BiSolidContact />
-          Contact
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#contact">Contact</a>
         </div>
       </div>
       <div className="footer">© Copyright Mohab Rageh</div>
     </aside>
   );
 
-  const navForSmallDevices = isOpen?(
-    <aside className="aside_smallDevices">
+  const navForSmallDevices = isOpen ? (
+    <aside
+      className="aside_smallDevices"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      data-aos-delay="100"
+    >
       <img src="/imgs/meOnAtos.jpg" alt="me" />
       <h3>Mohab Rageh</h3>
       <div className="nav_icons">
@@ -67,32 +83,32 @@ function Nav({ width, isOpen }: any) {
       <div className="nav_elements">
         <div>
           <AiOutlineHome />
-          Home
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#home">Home</a>
         </div>
         <div>
           <CgProfile />
-          About
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#about">About</a>
         </div>
         <div>
           <GiSkills />
-          Skills
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#skills">Skills</a>
         </div>
         <div>
           <RiProfileFill />
-          Education & Work
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#education">Education & Work</a>
         </div>
         <div>
           <BsCodeSlash />
-          Projects
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#projects">Projects</a>
         </div>
         <div>
           <BiSolidContact />
-          Contact
+          <a onClick={()=>{setIsOpen(!isOpen)}} href="#contact">Contact</a>
         </div>
       </div>
       <div className="footer">© Copyright Mohab Rageh</div>
     </aside>
-  ):null;
+  ) : null;
   if (width > 1200) {
     return navForBigDevices;
   } else {

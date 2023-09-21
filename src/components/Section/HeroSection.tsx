@@ -45,7 +45,7 @@ function HeroSection() {
   
 
   return (
-    <section className="HeroSection">
+    <section className="HeroSection" id="home">
       <div>
         <h1>{person.getName()}</h1>
         <h2>

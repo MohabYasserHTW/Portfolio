@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Section from "../Section/Section";
 import "../Education/Education.css";
+import "aos/dist/aos.css";
+import Aos from "aos";
 function WorkExperince() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <Section sectionTitle={"Work Experinces"}>
-      <ul className="education_list">
+      <ul
+        className="education_list"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-delay="100"
+      >
         <li>
           <h1>FreeLancer "Front & Back End"</h1>
           <ul className="education_inner_list">
@@ -20,14 +30,12 @@ function WorkExperince() {
               HTML, and CSS .
             </li>
             <li>
-              Developed secure and efficent server side apps  using NodeJs,
+              Developed secure and efficent server side apps using NodeJs,
               Express, RelationalDB, No-SqlDB.
             </li>
             <li>
-            Communicated regularly with clients, providing
-updates on project progress and incorporating
-feedback effectively.
-
+              Communicated regularly with clients, providing updates on project
+              progress and incorporating feedback effectively.
             </li>
           </ul>
         </li>

@@ -18,8 +18,16 @@
     text-shadow: 1px 1px 5px white;
 }
 
+.HeroSection div h1,.HeroSection div h2{
+    
+    animation: from_top 2s  1s  forwards ;
+}
 .HeroSection div p{
     margin-top: 20px;
     color: rgb(18, 196, 60);
     text-shadow: 0px 0px 5px white;
+    
 }
+
+
+
