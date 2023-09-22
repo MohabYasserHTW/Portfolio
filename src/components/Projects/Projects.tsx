@@ -1,58 +1,96 @@
-import React,{useEffect} from 'react'
-import Section from '../Section/Section'
-import "./Projects.css"
-import "aos/dist/aos.css"
-import Aos from "aos"
+import React, { useEffect } from "react";
+import Section from "../Section/Section";
+import "./Projects.css";
+import "aos/dist/aos.css";
+import Aos from "aos";
+import ProjectCard from "./ProjectCard";
 function Projects() {
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
+  const imgs = [
+    {
+      title: "The School",
+      src: "imgs/TheSchoolWebsite.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/carWebsite.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/pizaaShop.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/s3.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/elzero.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/notions.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/temp.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/backend.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/backend.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/backend.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+    {
+      title: "The School",
+      src: "imgs/backend.png",
+      codeLink: "dsa",
+      liveLink: "dsa",
+    },
+  ];
   return (
     <Section sectionTitle={"Projects"}>
-      <div className="projects_list" id='projects'>
-        <img src="imgs/TheSchoolWebsite.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/carWebsite.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/pizaaShop.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/s3.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-      data-aos-duration="1000"
-      data-aos-delay="100"/>
-        <img src="imgs/elzero.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/notions.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/temp.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/backend.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/backend.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        <img src="imgs/backend.png" className="about_img" alt="my img"  width={"300px"}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"/>
-        </div>
+      <div className="projects_list" id="projects">
+        {imgs.map((img) => (
+          <ProjectCard
+            img={img.src}
+            liveLink={img.liveLink}
+            codeLink={img.codeLink}
+            title={img.title}
+          />
+        ))}
+      </div>
     </Section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
