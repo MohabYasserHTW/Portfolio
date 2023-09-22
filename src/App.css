@@ -1,4 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&display=swap');
+h1,h2,h3{
+    font-family: 'EB Garamond', serif;
+}
+p{
+    font-size: 1.3rem;
+}
+ul{
+    font-size: 1.2rem;
+}
 html{
     scroll-behavior: smooth;
     
@@ -7,6 +17,9 @@ html{
     width: 100%;
     margin: 0 auto;
     color: white;
+    font-family: 'Raleway', sans-serif;
+    
+    font-size: 1rem;
 }
 .grid1To4{
     display: grid;

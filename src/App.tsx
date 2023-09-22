@@ -29,6 +29,9 @@ const App: React.FC = () => {
       };
     }, []);
     
+    /* 
+      projects links 
+    */
 
   return (
     <div className={`App ${width>1200?"grid1To4":""}`}>

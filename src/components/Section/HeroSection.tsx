@@ -38,7 +38,7 @@ function HeroSection() {
       "Back end developer",
       "Front end developer",
     ],
-    `You will suffer to be successful, or you will suffer from being a failure.  'Choose your suffering.'`,
+    `You may face challenges on the path to success, or you may encounter difficulties if you don't achieve your goals. The choice is yours.`,
     "/imgs/me.jpg"
   );
 

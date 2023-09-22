@@ -5,7 +5,7 @@
 }
 .education_list>li{
     position: relative;
-    font-size: 1rem;
+    
 }
 .education_list>li::after{
     position: absolute;

@@ -13,7 +13,7 @@ function Education() {
       data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="100"
       >
         <li>
-          <h1>Ain-Shmas</h1>
+          <h1>Ain-Shams</h1>
           <ul className="education_inner_list">
             <li>
               <b>Degree:</b> : Bachelor's Degree in Computer Science
