@@ -16,10 +16,10 @@ function Education() {
           <h1>Ain-Shams</h1>
           <ul className="education_inner_list">
             <li>
-              <b>Degree:</b> : Bachelor's Degree in Computer Science
+              <b>Degree:</b>  Bachelor's Degree in Computer Science
             </li>
             <li>
-              <b>Grade:</b> : Very Good with Honor
+              <b>Grade:</b>  Very Good with Honor
             </li>
             <li>
               <b>Date:</b> July 2018 - July 2022
