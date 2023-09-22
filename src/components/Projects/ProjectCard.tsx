@@ -16,12 +16,17 @@ function ProjectCard({img,codeLink,liveLink,title}:any) {
                 <h3>
                     {title}
                 </h3>
-                <a href={codeLink} target='blank'>
+                {
+                    codeLink?<a href={codeLink} target='blank'>
                     GitHub Repo
-                </a>
-                <a href={liveLink} target='blank'>
+                </a>:<></>
+                }
+                {
+                    liveLink?<a href={liveLink} target='blank'>
                     Live
-                </a>
+                </a>:<></>
+                }
+                
             </div>
             :<img src={img} alt='projectImg' />
         }

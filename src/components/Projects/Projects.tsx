@@ -13,68 +13,54 @@ function Projects() {
     {
       title: "The School",
       src: "imgs/TheSchoolWebsite.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      codeLink: "https://github.com/MohabYasserHTW/The_school_as_microServices",
+      
     },
     {
-      title: "The School",
+      title: "Car Company",
       src: "imgs/carWebsite.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      codeLink: "https://github.com/MohabYasserHTW/car_company/tree/main/%D8%A7%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%81%D9%8A",
+      
     },
     {
-      title: "The School",
+      title: "Pizaa Shop",
       src: "imgs/pizaaShop.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      codeLink: "https://github.com/MohabYasserHTW/pizaa_shop",
+      liveLink: "https://mohabrageh.github.io/pizaa/",
     },
     {
-      title: "The School",
+      title: "Social Media",
       src: "imgs/s3.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      codeLink: "https://github.com/MohabYasserHTW/S3",
+      liveLink: "https://mohabrageh.github.io/ss3/",
     },
     {
-      title: "The School",
+      title: "elzero temp",
       src: "imgs/elzero.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      
     },
     {
-      title: "The School",
+      title: "notion app",
       src: "imgs/notions.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      codeLink: "https://github.com/MohabRageh/not_es_ion",
+      liveLink: "https://mohabrageh.github.io/not_es_ion/",
     },
     {
-      title: "The School",
+      title: "elzero temp",
       src: "imgs/temp.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      
     },
     {
-      title: "The School",
+      title: "ToDo APIs",
       src: "imgs/backend.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      codeLink: "https://github.com/MohabYasserHTW/todo_API",
+      
     },
     {
-      title: "The School",
+      title: "Vip Kid APIs",
       src: "imgs/backend.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
-    },
-    {
-      title: "The School",
-      src: "imgs/backend.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
-    },
-    {
-      title: "The School",
-      src: "imgs/backend.png",
-      codeLink: "dsa",
-      liveLink: "dsa",
+      codeLink: "https://github.com/MohabYasserHTW/vip_kid",
+      
     },
   ];
   return (
