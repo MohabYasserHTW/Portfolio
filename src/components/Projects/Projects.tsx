@@ -62,6 +62,13 @@ function Projects() {
       codeLink: "https://github.com/MohabYasserHTW/vip_kid",
       
     },
+    {
+      title: "Notes App",
+      src: "imgs/notesApp.png",
+      codeLink: "https://github.com/MohabYasserHTW/Simple-Note-Taking-App",
+      liveLink:"https://mohabyasserhtw.github.io/Simple-Note-Taking-App/"
+      
+    },
   ];
   return (
     <Section sectionTitle={"Projects"}>
