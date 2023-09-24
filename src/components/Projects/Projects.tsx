@@ -14,13 +14,12 @@ function Projects() {
       title: "The School",
       src: "imgs/TheSchoolWebsite.png",
       codeLink: "https://github.com/MohabYasserHTW/The_school_as_microServices",
-      
     },
     {
-      title: "Car Company",
-      src: "imgs/carWebsite.png",
-      codeLink: "https://github.com/MohabYasserHTW/car_company/tree/main/%D8%A7%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%81%D9%8A",
-      
+      title: "Notes App",
+      src: "imgs/notesApp.png",
+      codeLink: "https://github.com/MohabYasserHTW/Simple-Note-Taking-App",
+      liveLink: "https://mohabyasserhtw.github.io/Simple-Note-Taking-App/",
     },
     {
       title: "Pizaa Shop",
@@ -35,9 +34,15 @@ function Projects() {
       liveLink: "https://mohabrageh.github.io/ss3/",
     },
     {
+      title: "Car Company",
+      src: "imgs/carWebsite.png",
+      codeLink:
+        "https://github.com/MohabYasserHTW/car_company/tree/main/%D8%A7%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%81%D9%8A",
+    },
+
+    {
       title: "elzero temp",
       src: "imgs/elzero.png",
-      
     },
     {
       title: "notion app",
@@ -48,26 +53,16 @@ function Projects() {
     {
       title: "elzero temp",
       src: "imgs/temp.png",
-      
     },
     {
       title: "ToDo APIs",
       src: "imgs/backend.png",
       codeLink: "https://github.com/MohabYasserHTW/todo_API",
-      
     },
     {
       title: "Vip Kid APIs",
       src: "imgs/backend.png",
       codeLink: "https://github.com/MohabYasserHTW/vip_kid",
-      
-    },
-    {
-      title: "Notes App",
-      src: "imgs/notesApp.png",
-      codeLink: "https://github.com/MohabYasserHTW/Simple-Note-Taking-App",
-      liveLink:"https://mohabyasserhtw.github.io/Simple-Note-Taking-App/"
-      
     },
   ];
   return (
