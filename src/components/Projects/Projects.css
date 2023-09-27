@@ -51,4 +51,9 @@
     height: 300px;
     background-color: black;
     position: relative;
+    
+}
+.project_card:hover{
+    transition: 2s;
+    translate: 15px  15px;
 }
