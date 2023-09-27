@@ -22,7 +22,7 @@ function Nav({ width, isOpen, setIsOpen }: any) {
 
   const navForBigDevices = (
     <aside
-      className={`nav ${width > 1200 ? "show" : ""}`}
+      className={`nav ${width > 1000 ? "show" : ""}`}
       data-aos="fade-right"
       data-aos-duration="3000"
       data-aos-delay="100"
@@ -127,7 +127,7 @@ function Nav({ width, isOpen, setIsOpen }: any) {
       <div className="footer">© Copyright Mohab Rageh</div>
     </aside>
   ) : null;
-  if (width > 1200) {
+  if (width > 1000) {
     return navForBigDevices;
   } else {
     return navForSmallDevices;

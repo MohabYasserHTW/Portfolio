@@ -48,6 +48,9 @@
     justify-content: flex-start;
 }
 .aside_smallDevices img{
+    width: 300px;
+}
+.aside_smallDevices img{
     width: 80px;
     height: 80px;
     margin: 0 auto;
