@@ -6,7 +6,7 @@
   padding: 3rem;
 }
 .services_list > div {
-  border: 1px solid black;
+  border: 1px solid rgb(81, 119, 255);
   display: grid;
   place-content: center;
   padding: 1rem;
@@ -15,10 +15,11 @@
   gap: 20px;
   width: 300px;
   height: 300px;
-  color: brown;
+  color: rgb(81, 119, 255);
+  transition: 1s;
 }
 .services_list > div:hover {
-  transform: translate(5px, 5px);
+  transform: translate(15px, 15px);
 }
 .services_list img {
   width: clamp(200px, 10%, 300px);

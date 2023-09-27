@@ -11,7 +11,7 @@
     position: absolute;
     width: 60px;
     height: 5px;
-    background-color: blue;
+    background-color:rgb(81, 119, 255);
     top:100%;
     left: 0;
     content: "";
@@ -21,5 +21,5 @@
 .section_title{
     position: relative;
     font-size: 2rem;
-    color: brown;
+    color: rgb(81, 119, 255);
 }
