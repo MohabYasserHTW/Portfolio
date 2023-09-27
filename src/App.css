@@ -14,12 +14,15 @@ html{
     
 }
 .App{
-    width: 100%;
+    
     margin: 0 auto;
     color: white;
     font-family: 'Raleway', sans-serif;
-    
     font-size: 1rem;
+}
+.marginL300{
+    margin-left: 300px;
+
 }
 .grid1To4{
     display: grid;

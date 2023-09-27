@@ -11,14 +11,13 @@
     
 }
 .nav{
-    
     display: none;
     flex-direction: column;
     gap: 10px;
     height: 100vh;
     position: fixed;
-    width: 250px;
-    
+    left: 0;
+    width: 300px;
 }
 .show{
     display: flex;
@@ -55,7 +54,7 @@
     margin-top: 20px;
     
     border-radius: 50%;
-    outline: 5px solid rgba(165, 42, 42, 0.751);
+    outline: 5px solid rgb(81, 119, 255);
 }
 .aside_smallDevices h3{
     text-align: center;

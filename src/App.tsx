@@ -34,7 +34,7 @@ const App: React.FC = () => {
     */
 
   return (
-    <div className={`App ${width>1200?"grid1To4":""}`}>
+    <div className={`App ${width<1000?"":"marginL300"}`}>
       <div className='nav_parent'>
       <Nav width={width} isOpen={isOpen} setIsOpen={setIsOpen}/>
       </div>
