@@ -21,7 +21,7 @@ export default function About() {
         proven track record of delivering impactful digital solutions. My
         passion for creating meaningful user experiences has driven me to
         continuously refine my skills in the field of Full Stack Development
-        over the past year. My journey commenced with a comprehensive 4-year
+        over the last year. My journey commenced with a comprehensive 4-year
         study of Computer Science at Ain-Shams University, culminating in an
         exceptional degree with honors.
       </p>
